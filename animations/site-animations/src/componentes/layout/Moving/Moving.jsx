@@ -20,14 +20,14 @@ function Moving(){
 
                     </div>}
                 css= {
-                    <p className="text">background: linear-gradient(-45deg, #FF00F4, #FFFFFF, #80FFAC) no-repeat; <br/>
-                    background-size: 300% 300%; <br/>
-                    animation: GradientExperience 10s infinite; <br/>
-                    width: 100%; <br/>
-                    min-height: 100vh; <br/>
-                    display: flex; <br/>
-                    flex-direction: column; <br/>
-                    align-items: center; <br/>
+                    <p className="text">background: linear-gradient(-45deg, #FF00F4, #FFFFFF, #80FFAC) no-repeat; <br />
+                    background-size: 300% 300%; <br />
+                    animation: GradientExperience 10s infinite; <br />
+                    width: 100%; <br />
+                    min-height: 100vh; <br />
+                    display: flex; <br />
+                    flex-direction: column; <br />
+                    align-items: center; <br />
                     justify-content: center;</p>
                 }
                 javascript={
