@@ -2,11 +2,10 @@ import React, { useEffect } from "react";
 import { Modal, BoxModal, CloseButton, CodeTitle, BoxText, BoxCode, Box, CodeHTML, CodeCSS, CodeJS, TecTitle } from "./ModalStyle";
 
 const ModalWrapper = ({
-    id = 'modal', onClose = () =>{}, title, html, css, javascript }) =>{
+    id = 'modal', onClose = () =>{}, title, html, css, javascript}) =>{
     const handleOutsideClick = (e) =>{
         if(e.target.id === id) onClose()
     }
-
     useEffect(()=>{
             const boxModal = document.querySelector('#boxmodal');
             boxModal.style.opacity = 1;

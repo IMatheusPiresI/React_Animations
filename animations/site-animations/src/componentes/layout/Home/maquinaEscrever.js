@@ -7,4 +7,4 @@ export function maquinaEscrever(texto){
         texto.innerHTML += letra
         }, 65 * index);
     })
-}   
+}

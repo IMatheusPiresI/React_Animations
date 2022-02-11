@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import CardAnimations from '../../CardAnimations/CardAnimations'
 import { maquinaEscrever } from '../Home/maquinaEscrever'
 import { ContainerBackground, BoxAnimation, TitleAnimation, BoxCard } from '../Background/BackgroundStyle'
+import { NavHeroAirplane } from '../../NavHeroAirplane/NavHero'
 
 function Text(){
 
@@ -20,12 +21,13 @@ function Text(){
 
     return(
         <ContainerBackground>
+            <NavHeroAirplane />
             <BoxAnimation>
                 <TitleAnimation id='title-animation'>Select the Text Animation</TitleAnimation>
                 <BoxCard id='boxcard'>
                     <CardAnimations
                         cardAnimation = 'cardUm'
-                        to =''
+                        to ='/typewriter'
                         nomeAnimation = 'Typewriter'
                     />
                      <CardAnimations

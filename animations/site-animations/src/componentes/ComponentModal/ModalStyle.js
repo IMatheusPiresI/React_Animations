@@ -103,35 +103,32 @@ export const BoxCode = styled.div`
 export const Box = styled.div`
     width: 300px;
     height: 200px;
-    border: 2px solid #000;
+    border: 1px solid #000;
     overflow: scroll;
-    
-    .tag{
-        font-weight: 700;
-        color: #FF4500;
-    }
+    padding: 4px 4px;
+    white-space: nowrap;
 
     .text{
         word-break: break-all;
     }
 
+    .identify{
+        margin: 0px 20px;
+    }
+    
     
 `;
 
 export const CodeHTML = styled.p`
     color: #000;
-    white-space: nowrap;
 `;
 
 export const CodeCSS = styled.p`
-    color: aqua;
-    text-shadow: 1px 1px #000;
-    white-space: nowrap;
-
+    color: #000;
 `;
 
 export const CodeJS = styled.p`
-    white-space: nowrap;
+    color: #000;
 `;
 
 export const TecTitle = styled.h4`

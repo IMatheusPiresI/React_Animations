@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import CardAnimations from '../../CardAnimations/CardAnimations'
 import { maquinaEscrever } from '../Home/maquinaEscrever'
 import { ContainerBackground, BoxAnimation, TitleAnimation, BoxCard } from './BackgroundStyle'
+import { NavHeroAirplane } from '../../NavHeroAirplane/NavHero'
 
 function Background(){
 
@@ -21,6 +22,7 @@ function Background(){
     return(
         <ContainerBackground>
             <BoxAnimation>
+                <NavHeroAirplane />
                 <TitleAnimation id='title-animation'>Select the Background Animation</TitleAnimation>
                 <BoxCard id='boxcard'>
                     <CardAnimations

@@ -31,15 +31,32 @@ export const BoxMoving = styled.div`
             background-position: 0% 50%;
         }
     }
+
+    @keyframes DeveloperColor {
+        0%,100%{
+            color: aqua;
+        }
+        50%{
+            color: plum;
+        }
+    }
+    
 `;
 
 export const Button = styled.button`
     padding: 20px 40px;
+    width: 150px;
     text-decoration: none;
-    box-shadow: 2px 2px 10px 2px #0008;
+    box-shadow: 1px 1px 5px 1px #0008;
     border: 1px solid #000;
-    border-radius: 20px;
+    transition: .5s;
+    opacity: 1;
+    text-shadow: 1px 1px #000;
+    background-color: transparent;
+    animation: DeveloperColor 10s infinite;
+    cursor: pointer;
 
+    
 `;
 
 export const Developer = styled.p`
@@ -51,12 +68,24 @@ export const Developer = styled.p`
     top: -1em;
     animation: DeveloperColor 10s infinite;
 
-    @keyframes DeveloperColor {
-        0%,100%{
-            color: aqua;
-        }
-        50%{
-            color: plum;
-        }
+`;
+    export const BoxButton = styled.div`
+        display: flex ;
+        gap: 0em 2em;
+
+    .left{
+        border-radius: 130px 10px 130px 10px;
+    }
+
+    .left:hover{
+        border-radius: 10px 130px 10px 130px;
+    }
+
+    .right{
+        border-radius: 10px 130px 10px 130px;
+    }
+
+    .right:hover{
+        border-radius: 130px 10px 130px 10px;
     }
 `;
